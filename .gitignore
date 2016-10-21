@@ -1,0 +1,6 @@
+tmp/
+*/.metadata/
+*/*/.settings/
+*/.recommenders
+*/*/.classpath
+*/*/.project
