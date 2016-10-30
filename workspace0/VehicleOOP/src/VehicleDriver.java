@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class VehicleDriver {
 	
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		
 		Vehicle v1 = new Vehicle();
 		Car car1 = new Car();
@@ -32,6 +32,7 @@ public class VehicleDriver {
 		
 		System.out.println(car1Desc);
 		System.out.println(v1);
+		System.out.println(car1);
 		
 	}
 
