@@ -4,6 +4,7 @@ public class PersonDriver {
 
 		Person ralph = new Person();
 		Teacher teacher1 = new Teacher();
+		Student student1 = new Student();
 		
 		teacher1.setAge(31);
 		teacher1.setWeight(168);
@@ -12,6 +13,9 @@ public class PersonDriver {
 		teacher1.setPrimarySubject("Math");
 		teacher1.makeAngry();
 		
+		student1.setIntendedMajor("Mathamatics");
+		student1.setGradeLevel(11);
+		student1.makeAngry();
 
 		//using mutator methods to set field variable values
 		ralph.setAge(7); 
@@ -25,6 +29,7 @@ public class PersonDriver {
                                    // using the values gotten via accessor methods (getters)
 		String teacher1Stats;
 		
+		String student1Stats;
 
 		ralphStats =  "Here are the vital stats for person/object 'ralph'\n";
 		ralphStats = ralphStats + "--------------------------------------------------\n";
@@ -45,9 +50,14 @@ public class PersonDriver {
 		teacher1Stats2 = teacher1.getFullName() + " has been teaching ";
 		teacher1Stats2 += teacher1.getPrimarySubject() + " for ";
 		teacher1Stats2 += teacher1.getYearsTeaching() + " years!";
+		
+		student1Stats = student1.getIntendedMajor()
+		
 		System.out.println(teacher1Stats2);
 
 		System.out.println(ralphStats);
+		
+		System.out.println(student1Stats);
 		
 	}
 	
