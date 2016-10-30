@@ -10,6 +10,8 @@ public class PersonDriver {
 		teacher1.setFullName("Mr. Sprinkles");
 		teacher1.setYearsTeaching(14);
 		teacher1.setPrimarySubject("Math");
+		teacher1.makeAngry();
+		
 
 		//using mutator methods to set field variable values
 		ralph.setAge(7); 
@@ -17,10 +19,12 @@ public class PersonDriver {
 		ralph.setLocation("Boston, MA");
 		ralph.setFullName("Ralph W. Emerson");
 		ralph.setGreeting("Heloooo there!");
+		ralph.makeAngry();
 		
 		String ralphStats; // let's build this string up over successive steps 
                                    // using the values gotten via accessor methods (getters)
 		String teacher1Stats;
+		
 
 		ralphStats =  "Here are the vital stats for person/object 'ralph'\n";
 		ralphStats = ralphStats + "--------------------------------------------------\n";
@@ -29,6 +33,7 @@ public class PersonDriver {
 		ralphStats += "Weight:   " + ralph.getWeight() + "\n";
 		ralphStats += "Location: " + ralph.getLocation() + "\n\n";
 		ralphStats += "How he likes to say hello: " + ralph.getGreeting() + "\n";
+		
 		
 		teacher1Stats = "Here are the stats for 'teacher 1' \n";
 		teacher1Stats += " ********************************************\n";

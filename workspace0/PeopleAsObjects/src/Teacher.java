@@ -22,5 +22,9 @@ public class Teacher extends Person {
 	public Teacher() {
 		
 	}
+	
+	public void makeAngry() {
+		System.out.println("You have made your teacher, " + this.getFullName() + ", angry. Your grade has been reduced by 6%.\n\n");
+	}
 
 }

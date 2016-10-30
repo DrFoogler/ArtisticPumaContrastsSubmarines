@@ -9,6 +9,11 @@ public class Person {
 	public Person() { //default, no-args constructor
 	}
 	
+	public void makeAngry() {
+		
+		System.out.println("You have made me, " + fullName + ", angry. I will get even.");
+		
+	}
 
 	// accessor and mutator methods follow ////////////////////
 
@@ -54,6 +59,4 @@ public class Person {
 	
 	// end accessor and mutator methods ////////////////////
 
-	
-	
 }
