@@ -17,4 +17,19 @@ public class BankAccount {
 		balance = newBalance;	
 	}
 
+	public String getOwnerSSN() {
+		return ownerSSN;
+	}
+	
+	public void setOwnerSSN(String o) {
+		ownerSSN = o;
+	}
+	
+	public String getAccountType() {
+		return accountType;
+	}
+	
+	public void setAccountType(String a) {
+		accountType = a;
+	}
 }
