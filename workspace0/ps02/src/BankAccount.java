@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BankAccount {
 	
 	private int balance;
@@ -33,6 +35,11 @@ public class BankAccount {
 		accountType = a;
 	}
 	
-	makeDeposit();
-	makeWithdrawal();
+	public void makeDeposit(int d) {
+		balance = balance + d;
+	}
+	
+	public void makeWithdrawal(int w) {
+		balance = balance - w;
+	}
 }
