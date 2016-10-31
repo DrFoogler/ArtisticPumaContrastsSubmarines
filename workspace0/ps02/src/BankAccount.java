@@ -32,4 +32,7 @@ public class BankAccount {
 	public void setAccountType(String a) {
 		accountType = a;
 	}
+	
+	makeDeposit();
+	makeWithdrawal();
 }
