@@ -7,6 +7,8 @@ public class BankAccountDriver {
 		BankAccount acct1 = new BankAccount();
 		CheckingAccount chkgAcct1 = new CheckingAccount();
 		SavingsAccount svgsAcct1 = new SavingsAccount();
+		CheckingAccount chkgAcct2 = new CheckingAccount();
+		SavingsAccount svgsAcct2 = new SavingsAccount();
 		
 		acct1.setBalance(2305);
 		acct1.setOwnerSSN("228-82-1105");
@@ -22,6 +24,9 @@ public class BankAccountDriver {
 		svgsAcct1.setInterestRate(4);
 		svgsAcct1.setMaxNumWithdrawals(6);
 		
+		chkgAcct2.setBalance(1800);
+		
+		svgsAcct2.setBalance(42);
 		
 		
 	}
