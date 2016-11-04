@@ -42,4 +42,10 @@ public class BankAccount {
 	public void makeWithdrawal(int w) {
 		balance = balance - w;
 	}
+	
+	public void makeTransfer(BankAccount acct1,int t) { 
+		makeWithdrawal(t);
+		acct1.makeDeposit(t);
+	}
+
 }

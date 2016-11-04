@@ -25,10 +25,19 @@ public class BankAccountDriver {
 		svgsAcct1.setMaxNumWithdrawals(6);
 		
 		chkgAcct2.setBalance(1800);
+		chkgAcct2.setAccountType("checking");
 		
 		svgsAcct2.setBalance(42);
+		svgsAcct2.setAccountType("savings");
 		
+		System.out.println("Checking balance before transfer: " + chkgAcct2.getBalance());
+		System.out.println("Savings balance before transfer: " + svgsAcct2.getBalance() + "\n");
 		
+		chkgAcct2.makeTransfer(svgsAcct2, 1000);
+		
+		System.out.println("Checking balance after transfer: " + chkgAcct2.getBalance());
+		System.out.println("Savings balance after transfer: " + svgsAcct2.getBalance());
+
 	}
 
 }
