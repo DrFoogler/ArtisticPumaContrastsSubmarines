@@ -1,5 +1,5 @@
 
-//Display orange disk moving across the sky
+//Display orange disk moving across the sky. Modified by Ben Reynoso
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
