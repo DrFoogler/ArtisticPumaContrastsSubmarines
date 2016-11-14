@@ -1,17 +1,15 @@
-
 public class gCF {
 
+	public static int mysteryFcn(int n) {
+		//precondition: n > 0
+	int result = 1;
+	while ( n >= 1 ) {
+		result *= n;
+		n--;
+	}
+		return result;
+}
 	public static void main(String[] args) {
-
+		System.out.println(mysteryFcn(5));
 	}
-	
-	public static int gCF(int a, int b) {
-		
-		while (a != b) {
-			
-		}
-		
-		return a;
-	}
-
 }
