@@ -12,15 +12,13 @@ public class Ch7Num4 {
 		int r = 0; //store remainder in this variable
 	
 		// your algorithm goes below //////////////////////////
-
-
-
-
-
-
+		while(m < n) 
+			m = m - n;
+			q++;
+		
 		// end of your algorithm //////////////////////////////
 
-		System.out.println(q + " R" + r);
+		System.out.println(q + " R " + r);
 	}
 
 
@@ -28,7 +26,7 @@ public class Ch7Num4 {
 
 		//alter these two values to test your algorithm:
 		int a = 13;	
-		int b = 2;
+		int b = 5;
 
 		//show result of dividing a by b:
 		divide(a,b);
